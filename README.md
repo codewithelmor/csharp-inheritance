@@ -73,9 +73,9 @@ In this example:
 * The **`Dog`** class is the derived class, which inherits from the **`Animal`** class using **`: base(name)`** in the constructor. This means that a **`Dog`** object has all the properties and methods of an **`Animal`**, and it can also have additional members.
 * The **`Dog`** class introduces a new method **`Bark`**, which is specific to dogs.
 
-In the Main method:
+In the **`Main`** method:
 
-* An Animal object is created, and its methods (Eat and Sleep) are called.
-* A Dog object is created, and it inherits the methods from the Animal class. Additionally, the Bark method, specific to the Dog class, is called.
+* An **`Animal`** object is created, and its methods (**`Eat`** and **`Sleep`**) are called.
+* A **`Dog`** object is created, and it inherits the methods from the **`Animal`** class. Additionally, the **`Bark`** method, specific to the **`Dog`** class, is called.
 
 This demonstrates how inheritance allows for code reuse and the creation of specialized classes based on more general ones. The derived class inherits the properties and behaviors of the base class and can also add new members or override existing ones to tailor the behavior to its specific needs.
